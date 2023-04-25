@@ -65,7 +65,7 @@ const cards_data = [
   {
     id:8,
     image:"../images/ea7.jpg",
-    name: "FSGsdg",    
+    name: "gsddgs",    
     atk: 8,
     def: 5,  
     clan: "Brainiacs",

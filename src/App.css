@@ -1,5 +1,7 @@
 
-
+*{
+  
+}
 
 .headerdiv {
  
@@ -61,17 +63,37 @@
 .carddiv:hover {  
   z-index: 30;
   will-change: transform;
-  transition: transform 0.3s ease-in-out, rotate 0.3s ease-in-out;
-  transform: translateY(30px) rotate(-5deg);
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(30px);
 }
 
-.infodiv {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.infodiv {  
+  font-family: 'Courier New', Courier, monospace;
   font-size: 20px;  
   font-weight: 600;
   position: absolute;
   bottom: 10px;
+  left:10px;
   z-index: 10;
+}
+
+.sellBtn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4d1010;
+  color: white;
+  border: 3px solid black;
+  padding: 2px 14px;  
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.sellBtn:hover {
+  cursor: pointer;  
+  background-color: rgb(248, 237, 185);
+  color: #4d1010;
+  
 }
 
 .carddiv p{
@@ -84,12 +106,12 @@
   height: 100%;  
   margin-top: 0px;
   z-index: 20;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, rotate 0.3s ease-in-out;;
   will-change: transform;
 }
 
 .carddiv:hover > .image_div{
-  transform: translateY(-115px) rotate(10deg);
+  transform: translateY(-115px) rotate(3deg);
   transition: transform 0.3s ease-in-out, rotate 0.3s ease-in-out;
   will-change: transform;
 }
