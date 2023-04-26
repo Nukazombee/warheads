@@ -16,10 +16,10 @@ function Filters (props) {
 
   const filteredCards = filterClan ? props.cards.filter(card => card.clan === filterClan) : props.cards;
 
-  const scavengersImage = filterClan === 'Scavengers' ? '../images/scavs2.png' : '../images/scavs.png';
-  const mercsImage = filterClan === 'Mercs' ? '../images/mercs2.png' : '../images/mercs.png';
-  const brainiacsImage = filterClan === 'Brainiacs' ? '../images/brainiacs2.png' : '../images/brainiacs.png';
-  const eatersImage = filterClan === 'Eaters' ? '../images/eaters2.png' : '../images/eaters.png';
+  const scavengersImage = filterClan === 'Scavengers' ? '../images/scavs4.png' : '../images/scavs3.png';
+  const mercsImage = filterClan === 'Mercs' ? '../images/mercs4.png' : '../images/mercs3.png';
+  const brainiacsImage = filterClan === 'Brainiacs' ? '../images/brainiacs4.png' : '../images/brainiacs3.png';
+  const eatersImage = filterClan === 'Eaters' ? '../images/eaters4.png' : '../images/eaters3.png';
 
   return (
     <div>

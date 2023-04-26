@@ -1,7 +1,10 @@
 
 function FilterButton(props) {
   return (
-    <img src={props.image} onClick={props.clicked}></img>
+    <div >
+    <img  src={props.image} onClick={props.clicked}></img>
+    
+    </div>
   );
 }
 

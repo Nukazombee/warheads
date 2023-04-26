@@ -7,7 +7,7 @@
  
   position: relative;
   height: 100px;
-  
+  border-bottom: 4px black solid;
 }
 
 .head1{
@@ -28,21 +28,28 @@
 }
 
 
-
+.bak {
+  background-color: rgba(255, 255, 255, 0.205)
+}
 
 .odd_card_box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px;
-  background-color: rgb(161, 202, 236);
-
+  gap: 40px;  
+  min-height: 800px;
+  background-image: url("../public/images/bak.png");
+  background-size: auto;
+  background-repeat: repeat;
+  border-top: 4px black solid;
+  
 }
 
 .carddiv {
   display: flex;
   flex-direction: column;
   flex-basis: 340px;
+  height: 480px;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.65);
   border-radius: 5px;    
   padding: 13px;
@@ -81,18 +88,19 @@
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background-color: #4d1010;
+  background-color: #681c1c;
   color: white;
   border: 3px solid black;
   padding: 2px 14px;  
   border-radius: 4px;
   font-weight: 700;
+  letter-spacing: 2px;
 }
 
 .sellBtn:hover {
   cursor: pointer;  
   background-color: rgb(248, 237, 185);
-  color: #4d1010;
+  color: #681c1c;
   
 }
 
@@ -111,7 +119,7 @@
 }
 
 .carddiv:hover > .image_div{
-  transform: translateY(-115px) rotate(3deg);
+  transform: translateY(-65px) rotate(3deg);
   transition: transform 0.3s ease-in-out, rotate 0.3s ease-in-out;
   will-change: transform;
 }
@@ -153,9 +161,18 @@
 }
 
 .clans img, .races img {
-  width: 50px;
-  margin: 0 10px;
+  width: 90px;
+  margin: 0 10px;  
+  z-index: 40;  
+  transition: transform 0.3s ease-in-out;
 }
+
+.clans img:hover {
+  transform: translateY(5px);
+  transition: transform 0.2s ease-in-out;
+}
+
+
 
 @media (max-width: 868px) {  
 

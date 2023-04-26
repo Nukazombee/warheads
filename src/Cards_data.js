@@ -2,75 +2,115 @@ const cards_data = [
   {
     id:1,
     image:"../images/ea1.jpg",
-    name: "Manu",    
-    atk: 4,
-    def: 8,  
+    rarity: "Uncommon", 
     clan: "Scavengers",
-    race: "Mutant"  
+    price: 600  
   },
   {
     id:2,
     image:"../images/ea2.jpg",
-    name: "RCU 'OMON'",    
-    atk: 7,
-    def: 8,  
+    rarity: "Epic",
     clan: "Mercs",
-    race: "Human/Cyborg"  
+    price: 2000  
   },
   {
     id:3,
     image:"../images/ea3.jpg",
-    name: "Mammon",    
-    atk: 8,
-    def: 12,  
+    rarity: "Common", 
     clan: "Eaters",
-    race: "Mutant"  
+    price: 180  
   },
   {
     id:4,
     image:"../images/ea4.jpg",
-    name: "Viper",    
-    atk: 6,
-    def: 4,  
+    rarity: "Uncommon",
     clan: "Eaters",
-    race: "Human"  
+    price: 740  
   },
   {
     id:5,
     image:"../images/ea5.jpg",
-    name: "SX-7 Senpai",    
-    atk: 4,
-    def: 10,  
+    rarity: "Common",
     clan: "Mercs",
-    race: "Cyborg"  
+    price: 550  
   },
   {
     id:6,
     image:"../images/ea6.jpg",
-    name: "Ol Tucker",    
-    atk: 8,
-    def: 7,  
+    rarity: "Rare",
     clan: "Scavengers",
-    race: "Human"  
+    price: 1100    
   },
   {
     id:7,
     image:"../images/ea7.jpg",
-    name: "Tash",    
-    atk: 8,
-    def: 5,  
+    rarity: "Common",
     clan: "Brainiacs",
-    race: "Human"  
+    price: 550  
   },
   {
     id:8,
-    image:"../images/ea7.jpg",
-    name: "gsddgs",    
-    atk: 8,
-    def: 5,  
+    image:"../images/ea8.jpg",
+    rarity: "Common",
+    clan: "Scavengers",
+    price: 400  
+  },
+  {
+    id:9,
+    image:"../images/ea9.jpg",
+    rarity: "Uncommon",
+    clan: "Eaters",
+    price: 600  
+  },
+  {
+    id:10,
+    image:"../images/ea10.jpg",
+    rarity: "Rare",
+    clan: "Eaters",
+    price: 1400  
+  },
+  {
+    id:11,
+    image:"../images/ea11.jpg",
+    rarity: "Epic",
+    clan: "Eaters",
+    price: 2300  
+  },
+  {
+    id:12,
+    image:"../images/ea12.jpg",
+    rarity: "Rare",
+    clan: "Eaters",
+    price: 1800  
+  },
+  {
+    id:13,
+    image:"../images/ea13.jpg",
+    rarity: "Rare",
     clan: "Brainiacs",
-    race: "Human"  
-  }
+    price: 1900  
+  },
+  {
+    id:14,
+    image:"../images/ea14.jpg",
+    rarity: "Rare",
+    clan: "Brainiacs",
+    price: 900  
+  },
+  {
+    id:15,
+    image:"../images/ea15.jpg",
+    rarity: "Common",
+    clan: "Scavengers",
+    price: 300  
+  },
+  {
+    id:16,
+    image:"../images/ea16.jpg",
+    rarity: "Uncommon",
+    clan: "Brainiacs",
+    price: 600  
+  },
 ]
 
 export default cards_data;
