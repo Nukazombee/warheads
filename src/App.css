@@ -38,9 +38,9 @@
   flex-wrap: wrap;
   gap: 40px;  
   min-height: 800px;
-  background-image: url("../public/images/bak.png");
-  background-size: auto;
-  background-repeat: repeat;
+  background-image: url("../public/images/bakk.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   border-top: 4px black solid;
   
 }
@@ -144,8 +144,12 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-bottom: 16px;
-  margin-top: 20px;
+  padding-bottom: 16px;
+  padding-top: 20px;
+  background-color: rgb(245, 197, 40);
+  
+  background: url("../public/images/bk.jpg") no-repeat center center ; 
+  background-size: cover;
   
   flex-wrap: wrap;
   
@@ -191,7 +195,7 @@
   }
 
   .clans img, .races img {
-    width: 40px;
+    width: 70px;
     margin: 0 6px;
   }
 
